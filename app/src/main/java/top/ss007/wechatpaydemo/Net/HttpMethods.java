@@ -25,9 +25,8 @@ public class HttpMethods
 {
     private static final String TAG = HttpMethods.class.getSimpleName();
 
-    private static final int DEFAULT_TIMEOUT = 20;
-    private static String SERVER_SITE = "http://shusheng007.top:8888/sstxServer/";
-    //private static String SERVER_SITE = "http://192.168.10.34:8181/";
+    private static final int DEFAULT_TIMEOUT = 20;    
+    private static String SERVER_SITE = "youserver";
 
 
     private Retrofit retrofit;
